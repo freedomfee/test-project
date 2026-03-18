@@ -15,7 +15,7 @@ def main():
                 cli.view_score_stats()
             elif choice == 4:
                 print("退出程序，再见！")
-                continue
+                break
             else:
                 print("输入错误，请选择 1-4 的编号！")
         except ValueError:
